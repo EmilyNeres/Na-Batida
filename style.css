@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap");
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+font-family: "Roboto" sans-serif ;
+}
+
+header{
+  height: 82vh;
+  background-color:  #129799;
+}
+
+header a:hover{
+  color: black;
+}
+
+nav a{
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: #f7f7f7;
+}
+
+#links{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 20vh;
+}
+
+
+
+#banner{
+  display: flex;
+  justify-content:space-evenly ;
+  align-items: center;
+}
+
+#banner p{
+  font-size:3rem ;
+  font-weight: 900;
+  color: #f7f7f7;
+}
+
+#categorias{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+height: 1.4vh;
+}
+
+
+
+main{
+  background-color: #ffa185;
+}
+
+#texto{
+  padding: 2rem;
+  height: 27vh;
+}
+
+#texto h1{
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  font: size 1.8rem; ;
+  font-weight: 800;
+  color: #f7f7f7;
+}
+
+#texto{
+  font-size: 1.2rem;
+}
+
+.container{
+  display: flex;
+  justify-content: space-evenly ;
+  align-items: center ;
+  margin-top: 2rem;
+}
+
+.fotos{
+  width: 47vw ;
+  height:45vh ;
+  cursor: pointer;
+}
+
+main img:hover{
+  opacity: 0.6;
+}
+
+#vejaMais{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#vejaMais:hover{
+  font-size: 1.6rem;
+  color: #f7f7f7;
+}
+
+footer{
+  display: flex;
+  justify-content: space-around ;
+  align-items: center;
+  height: 30vh;
+  background-color: #129799;
+}
+
+footer a{
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: #f7f7f7;
+  
+}
+
+footer a:hover{
+  color: black;
+}
+
+footer img:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+#redes{
+  display: flex;
+  justify-content: space-evenly;
+  width: 50vh;
+}
+
+#rodape{
+  display: flex;
+  justify-content: space-between;
+  width: 50vh;
+}
