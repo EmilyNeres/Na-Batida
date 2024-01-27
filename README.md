@@ -3,11 +3,8 @@
 Bem-vindo ao projeto "No Ritmo da Batida", desenvolvido como parte do curso "Vai na Web". Este projeto consiste em uma página da web que destaca trabalhos artísticos, imagens e categorias relacionadas.
 
  ## Técnologias utilizadas
-
 ### -1. HTML (index.html)
-
 ### -2. CSS (style.css)
-
 
 
 ## Instruções de Uso
